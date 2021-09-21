@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px 20px 0 20px;
+}
+
+.logo{
+    width: 128px;
+    height: 60px;
+}
+
+.navbar-link{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 15px 0 0;
+}
+
+.btn{
+    background-color: #5856CE;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* ------------------------- Landing Page ------------------------- */
+
+.landing-page{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing-page .heading{
+    font-family: 'Paytone one';
+    font-size: 48px;
+    color: #05034E;
+}
+
+.landing-page p{
+    font-size: 17px;
+    letter-spacing: .8px;
+    margin: 13px 0 39px 0;
+}
+
+/* -----------------------About aside --------------------------*/
+
+.about-aside{
+    margin-top: 60px;
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-div{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+.right-div{
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.about-aside h2{
+    font-size: 24px;
+    font-family: 'Paytone one';
+    color: #05034E;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.about-aside p{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-right: 36px;
+    letter-spacing: .8px;
+    line-height: 23px;
+}
+
+.about-aside h2 img{
+    height: 38px;
+    position: absolute;
+    left: -50px;
+} 
+
+
+/* ---------------------------- Second Page --------------------------*/
+
+.second-page{
+    height: 80vh;
+    width: 100%;
+    background-color: #F2F2FD;
+}
+
+.carousel-item img{
+    width: 300px;
+    height: 300px;
+}
+
+.visually-hidden{
+    background-color: burlywood;
+}
+
+
+/* --------------------------------------------Carousel --------------------------------*/
+
+
+.container {
+    max-width: 800px;
+    background-color: white;
+    padding: 0
+}
+
+.quotes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.quotes-container img{
+    height: 20px;
+    width: 20px;
+}
+
+.quotes-container .company-name{
+    height: 13px;
+    width: 120px;
+}
+
+#person-headshot{
+    height: 60px;
+    width: 60px;
+}
+
+#holder-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -18px;
+}
+
+#text-holder{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+#text-holder .name{
+    margin-bottom: 3px;
+}
+
+.fas{
+    font-size: 30px;
+    
+}
+
+.fa-arrow-right{
+    margin-left: 20px;
+}
+
+.fa-arrow-left{
+    margin-right: 20px;
+}
+
+.job {
+    color: #c8c8c8;
+    font-size: 14px
+}
+
+.carousel-inner {
+    max-width: 800px
+}
+
+.fa-minus {
+    font-size: 14px
+}
+
+.carousel-indicators {
+    bottom: -20px;
+    right: 0;
+    margin: 0
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    border: 2px solid black;
+    width: 10px;
+    background-color: inherit;
+    border-radius: 50%
+}
+
+.carousel-indicators .active {
+    border: 2px solid transparent;
+    background-color: #c1e718
+}
+
+.left {
+    color: rgb(20, 20, 20);
+    font-weight: 600
+}
+
+.right {
+    color: rgb(12, 12, 12);
+    font-weight: 600
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: relative
+}
+
+
